@@ -1,0 +1,16 @@
+spring:
+  jpa:
+    #전송 쿼리 확인(실행 구문을 모두 보여줌)
+    properties:
+      hibernate:
+        show_sql = true
+        format_sql = true
+  
+    #테이블 생성 후에 data.sql 실행
+    defer-datasource-initialization: true
+
+#로그 레벨 설정
+logging:
+  level:
+    org.hibernate.SQL: debug
+    org.hibernate.type: trace
