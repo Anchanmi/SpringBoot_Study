@@ -3,7 +3,6 @@ package me.anchanmi.springbootdeveloper;
 import jakarta.persistence.*;
 import lombok.*;
 
-
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @AllArgsConstructor
 @Getter
